@@ -1,0 +1,154 @@
+
+  [
+{
+"id":"1",
+"Meal" : "Macaroni box",
+"Dish" : "Meat",
+"Allergic" : "LactoseFree",
+"Price":5
+
+},
+{
+    
+        
+    "id":"2",
+    "Meal" : "Pasta bolognese",
+    "Dish" : "Meat",
+    "Allergic" : "GlutenFree",
+    "Price":4
+   
+    },
+    {
+        "id":"3",
+        "Meal" : "Salmonballs and potatosauce",
+        "Dish" : "Fish",
+        "Allergic" : "LactoseFree",
+        "Price":8
+        
+        },
+        {
+            "id":"4",
+            "Meal" : "Vegetable soup",
+            "Dish" : "Vegetable",
+            "Allergic" : "Vege",
+            "Price":3
+           
+            },
+            {
+                "id":"5",
+                "Meal" : "Tortillas",
+                "Dish" : "Meat,Fish,Chicken,Vege",
+                "Allergic" : "LactoseFree",
+                "Price":7
+              
+                },
+                {
+                    "id":"6",
+                    "Meal" : "Viennese slice and french fries",
+                    "Dish" : "Chicken",
+                    "Allergic" : "LactoseFree",
+                    "Price":10
+                   
+                    },
+                    {
+                        "id":"7",
+                        "Meal" : "Meatsoup",
+                        "Dish" : "Meat",
+                        "Allergic" : "LactoseFree",
+                        "Price":5
+                        
+                        },
+                        {
+                            "id":"8", 
+                            "Meal" : "Chicken pasta",
+                            "Dish" : "Chicken",
+                            "Allergic" : "LactoseFree",
+                            "Price":6
+                           
+                            },
+                            {
+                                "id":"9",
+                                "Meal" : "Chickenwok",
+                                "Dish" : "Chicken",
+                                "Allergic" : "LactoseFree",
+                                "Price":8
+                                
+                                },
+                                {   
+                                    "id":"10",
+                                    "Meal" : "Avokado Pasta",
+                                    "Dish" : "Vegetable",
+                                    "Allergic" : "Vege",
+                                    "Price":8
+                                    },
+                                    
+                                    {
+                                        "id":"11",
+                                        "Meal" : "Oven sausage and mashed potatoes",
+                                        "Dish" : "Liha",
+                                        "Allergic" : "LactoseFree",
+                                        "Price":9
+                                       
+                                        },
+                                        {
+                                            "id":"12",
+                                            "Meal" : "Tofupasta",
+                                            "Dish" : "Vege",
+                                            "Allergic" : "Vege",
+                                            "Price":10
+                                            
+                                            },
+                                            {
+                                                "id":"13",
+                                                "Meal" : "Sausage sauce and potatoes",
+                                                "Dish" : "Meat",
+                                                "Allergic" : "LactoseFree",
+                                                "Price":8
+                                               
+                                                },
+                                                {
+                                                    "id":"14",
+                                                    "Meal" : "Lasagne",
+                                                    "Dish" : "Meat",
+                                                    "Allergic" : "LactoseFree",
+                                                    "Price":4
+                                                  
+                                                    },
+                                                    {
+                                                        "id":"15",
+                                                        "Meal" : "Pea soup and pancake",
+                                                        "Dish" : "Meat",
+                                                        "Allergic" : "GlutenFree",
+                                                        "Price":9
+                                                       
+                                                        },
+                                                        {
+                                                            "id":"16",
+                                                            "Meal" : "Root soup",
+                                                            "Dish" : "Vegetable",
+                                                            "Allergic" : "LactoseFree",
+                                                            "Price":5
+                                                            
+                                                            },
+                                                            {
+                                                                "id":"17",
+                                                                "Meal" : "Chili Nuts and Rice",
+                                                                "Dish" : "Meat",
+                                                                "Allergic" : "LactoseFree",
+                                                                "Price":10
+                                                                
+                                                                },
+                                                                {
+                                                                    "id":"18",
+
+                                                                    "Meal" : "Deer and mashed potatoes",
+                                                                    "Dish" : "Meat",
+                                                                    "Allergic" : "LactoseFree",
+                                                                    "Price":12
+                                                                   
+                                                                    }
+
+
+
+
+]

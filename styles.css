@@ -1,0 +1,252 @@
+/*Kaikki*/
+#header{
+    box-shadow:2px 4px 5px black;
+    border:2px solid;
+    border-radius:8px; 
+    background-image: linear-gradient(to bottom right,rgb(96, 188, 241),white);
+    
+    
+}
+#confirmButton{
+    text-decoration: none;
+    
+
+}
+
+#a:hover, a:visited{
+    text-decoration: none;
+    color:#fff;
+    
+}
+
+#info{
+    max-width: auto;
+   
+}
+
+
+
+#table{
+    border:10px solid;
+    border-radius:15px;
+    
+   
+}
+
+td,th{
+    color:#000;
+    font-size:1.1em;
+    font-weight:bold;
+  
+}
+h4{
+    font-size:40px;
+    margin:0px;
+    padding:0px;
+    font-family:fontti1;
+
+}
+h3{
+    font-size:25px;
+    margin:0px;
+    padding:0px;
+    font-family:fontti1;
+    
+}
+
+#header h3{
+    margin-top:1.5%;
+}
+
+@font-face {
+    font-family: fontti1;
+    src: url(fontti1.ttf);
+  }
+
+.col-sm{
+    
+    margin:5px;
+}
+
+
+
+
+
+#ohjeet{
+    border:2px solid;
+    box-shadow: 2px 4px 5px black;
+}
+
+#yhteystieto{
+    box-shadow:2px 4px 5px black;
+    border:2px solid;
+    border-radius:8px; 
+    background-image: linear-gradient(to bottom right,rgb(96, 188, 241),white);
+    
+}
+#tausta{
+    background-color:#c5eefa;
+}
+.form-control{
+    background-color: #F7F3F2;
+    border:1px solid;
+    border-radius: 5px;
+    box-shadow:2px 3px 5px black;
+}
+label{
+    margin-top:5px;
+    font-weight: bold;
+}
+.confirmButton,.tiedot{
+background-color: #037ffc; 
+  border: none;
+  color: white;
+  padding: 6px 16px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius:8px;
+
+    
+
+    
+}
+.confirmButton:hover,.tiedot:hover{
+    background-color: #0659cc;
+    color: white;
+}
+
+
+
+
+
+/* Desktop*/
+
+@media only screen and (min-width: 768px) {
+ 
+  #kuva{
+      margin-top:10%;
+      height:35%;
+      width: 35%;
+  }
+  #filtter{
+      width: 100%;
+      margin-top: 10px;
+      box-shadow:3px 3px 3px black;
+      
+      
+  }
+  #Meat,#Fish,#Chicken,#Vegetable,#GlutenFree,#LactoseFree{
+    width: 100%;
+    box-shadow:3px 3px 3px black;
+}
+#confirmButton{
+    width: 50%;
+    box-shadow:3px 3px 3px black;
+      
+
+}
+  p{
+      margin:0px;
+      padding:0px;
+      font-size: 150%;
+  }
+  h3{
+    font-size:40px;
+    margin:0px;
+    padding:0px;
+    font-family:fontti1;
+    
+}
+
+#alaosa{
+    background-color: #000;
+}
+
+
+
+
+#returnButton{
+    width: 40%;
+    box-shadow:3px 3px 3px black;
+}
+.btn-success{
+    width: 50%;
+    box-shadow:3px 3px 3px black;
+}
+fieldset{
+    color:black;
+}
+
+
+#col1{
+    column-count: 2;
+}
+#modalButton{
+    width: 25%;
+    box-shadow:3px 3px 3px black;
+    margin-left:37%;
+}
+#returnButton1{
+    width: 50%;
+    box-shadow:3px 3px 3px black;
+
+}
+
+
+  }
+/*Tablets*/
+  @media only screen and (max-width: 767px) {
+    #Meat,#Fish,#Chicken,#Vegetable,#GlutenFree,#LactoseFree{
+        width: 100%;
+        box-shadow:3px 3px 3px black;
+    }
+    #confirmButton{
+        width: 100%;
+        box-shadow:3px 3px 3px black;
+    }
+    #filtter{
+        width: 100%;
+        margin-top: 10px;
+        box-shadow:3px 3px 3px black;
+    }
+    th,tr{
+        font-size:12px;
+        font-weight: bold;
+    }
+    .btn-danger{
+        width: 100%;
+        box-shadow:3px 3px 3px black;
+    }
+    .btn-success{
+        width: 100%;
+        box-shadow:3px 3px 3px black;
+    }   
+
+    #modalButton{
+        width: 100%;
+        box-shadow:3px 3px 3px black;
+    }
+    #ostoskori{
+        margin-bottom:2.5%;
+    }
+    
+    
+}
+/*Mobile*/
+@media only screen and (max-width: 521px){
+    tr,th{
+        font-size: 7px;
+
+    }
+    h3,#header h3{
+        font-size:25px;
+        margin:0px;
+        padding:0px;
+        font-family:fontti1;
+        margin-top:2.5%;
+        
+    }
+
+}

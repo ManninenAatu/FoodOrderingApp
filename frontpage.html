@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>FoodOrderingApp</title>
+
+<!--BOOTSRAP CSS-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!--BOOTSRAP JS-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link href="styles.css" media=all type="text/css" rel="stylesheet">
+
+<!--ICONIT-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  
+
+
+  <div class="bg">
+
+    
+
+    
+    <div class="container" id="header">
+
+        <div class="row">
+          <div class="col-8">
+              
+              <h3>
+                Order food
+              </h3>
+            </div>
+            <div class="col-4" id="colsa">
+              <button style="float: right;margin-top: 2.5%;" type="button" id="sCart" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm"><i class="fa fa-shopping-cart" style="font-size:24px"></i></button>
+              
+<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content" id="printarea1">
+     
+    </div>
+  </div>
+</div>
+   
+              </div>
+              </div>
+            
+        </div>
+    </div>
+  
+
+
+  <div class="container">
+    
+      
+      <button class="btn btn-primary" id="filtter" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        Open filters
+      </button>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <button type="button" id="Meat" class="btn btn-primary">Meat</button>
+              </div>
+              <div class="col-sm">
+                <button type="button" id="Fish" class="btn btn-primary">Fish</button>
+              </div>
+              <div class="col-sm">
+                <button type="button" id="Chicken" class="btn btn-primary">Chicken</button>
+              </div>
+              <div class="col-sm">
+                <button type="button" id="Vegetable" class="btn btn-primary">Vegetable</button>
+              </div>
+              <div class="col-sm">
+                <button type="button" id="LactoseFree" class="btn btn-primary">Lactose free</button>
+              </div>
+              <div class="col-sm">
+                <button type="button" id="GlutenFree" class="btn btn-primary">Gluten free</button>
+              </div>
+            </div>
+          </div>
+          </div>
+      </div>
+    
+  </div>
+
+  
+  
+<br/>
+  <div class="container" id="guide">
+    <div class="text-center">
+      <p>Order at least 1, max 7</p>
+        <h3>Menu</h3>
+
+    </div>
+    
+
+
+    
+<br/>
+
+    <div class="container">
+      <div class="table-responsive" id="table">
+        
+      </div>
+      
+    </div>
+          
+  </br>    
+  <div class="container" >    
+    <div class="container">
+        <div class="text-center">
+
+            <button  type="button" id="confirmButton"  class="btn btn-primary" >Confirm</a></button>
+        </div>
+    
+<br/>
+</div>
+
+<div class="container">
+  <div class="text-center">
+  <button type="button" id="returnButton" class="btn btn-danger">Return</button>
+  </div>
+</div>
+</div>
+
+    
+<br/>
+<div class="container" id="footer">
+
+</div>
+
+
+<script src="main.js">
+
+
+</script>
+
+</body>
+
+</html>

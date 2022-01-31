@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>FoodOrderingApp</title>
+
+<!--BOOTSRAP CSS-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!--BOOTSRAP JS-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!--TYYLIT-->
+<link href="styles.css" media=all type="text/css" rel="stylesheet">
+
+</head>
+
+<body> 
+    <div class="container" id="tausta">
+  
+    <div class="container">
+      <fieldset>
+        <legend>Fill contact information</legend>
+    <div id="yhteystieto" class="container">
+    
+        
+            <div class="row">
+              <div class="col">
+                <div class="text-center">
+
+                    <h4>Contact information</h3>
+                </div>
+              </div>
+            </div>
+    </div>
+
+    <div class="container" id="col1">
+        
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Firstname</label>
+                  <input type="text" class="form-control" id="firstName" placeholder="">
+                  
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Lastname</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                   <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="">
+                    </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Phone number</label>
+                    <input type="text" class="form-control" id="phoneNumber" placeholder="">
+                  </div>
+                
+                
+               
+            
+            </form>
+            
+        </div>
+        <div id="yhteystieto" class="container">
+        
+            <div class="row">
+              <div class="col">
+                <div class="text-center">
+
+                    <h4>Address</h4>
+                </div>
+              </div>
+            </div>
+    </div>
+
+    <div class="container">
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Steet address</label>
+            <input type="text" class="form-control" id="address" placeholder="">
+            
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Postal code</label>
+            <input type="text" class="form-control" id="postalCode" placeholder="">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">City</label>
+            <input class="form-control" id="city" type="text" value="Jyväskylä" placeholder="Jyväskylä" disabled>
+            
+          </div>
+          
+
+    </div>
+
+    <div id="yhteystieto" class="container">
+        
+        <div class="row">
+          <div class="col">
+            <div class="text-center">
+
+                <h4>Billing address</h4>
+            </div>
+          </div>
+        </div>
+</div>
+
+<div class="container">
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">Street address</label>
+        <input type="text" class="form-control" id="billingAddress" placeholder="">
+        
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Postal code</label>
+        <input type="text" class="form-control" id="billingPostalCode" placeholder="">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">City</label>
+        <input type="text" class="form-control" id="billingCity" placeholder="">
+        
+        
+      </div>
+      
+
+</div>
+<div class="container">
+
+ 
+<!-- Modal -->
+<!--MODAALi-->
+
+<button type="button" id="modalButton" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Check order
+</button>
+<br/>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Summary</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="printArea">
+        ...
+      </div>
+      <div class="modal-footer">
+        <div class="text-center">
+        <button type="button"  class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        </div>
+        <button type="button" class="btn btn-primary" id ="saveModal">Confirm</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<br/>
+<div class="container">
+    <div class="row">
+        
+      <div class="col">
+        <div class="text-center">
+        <button type="button" id="returnButton1" class="btn btn-danger">Cancel</button>
+        </div>
+      </div>
+      
+      
+      <div class="col">
+        <div class="text-center">
+        <button type="button" id="confirmOrderButton" class="btn btn-success">Send order</button> 
+      </div>
+    </div>
+    <br/>
+    <br/>
+  </div>
+</div>
+  </fieldset>
+</div>
+</div>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
